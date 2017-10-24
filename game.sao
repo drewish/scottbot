@@ -1,0 +1,65 @@
+0
+2
+2
+18
+11
+-1
+1
+0
+6
+-1
+2
+1
+
+307 44 1 20 0 0 204 9600
+307 44 6 20 0 0 354 9600
+457 44 1 20 0 0 8164 0
+
+"AUT" "ANY"
+"GO" "NORTH"
+"KNOCK" "SOUTH"
+"OPEN" "EAST"
+"" "WEST"
+"" "UP"
+"" "DOWN"
+"" "DOOR"
+"" "KEY"
+"" "FORM"
+"GET" ""
+"*GRAB" ""
+"*PICKUP" ""
+"*TAKE" ""
+"" ""
+"" ""
+"" ""
+"" ""
+"DROP" ""
+
+0 0 0 0 0 0 ""
+5 2 0 0 0 0 "*I'm in the Recurly Boulder office. The smell of free breakfast fills the office."
+0 4 0 3 0 0 "vestibule between the Recurly office and a bank. The DOOR to the office is locked."
+0 0 2 0 0 0 "*I'm in Flations Bank. The employees look up expectantly. "
+5 0 0 2 0 0 "*I'm on the corner of Canyon & 11th. The building to the west has a Recurly logo on the door. The creek is to the south but crossing a busy street like Canyon Boulevard seems like too much trouble. I wonder what's to the north."
+6 4 0 0 0 0 "nameless alley off 11th street. The DOOR to the Recurly office is locked. Delivery trucks block the alley to the the east. Walnut Street is to the north."
+8 5 7 0 0 0 "*I'm on the corner of Walnut & 11th."
+9 0 0 6 0 0 "*I'm on the corner of Walnut & Broadway."
+0 6 9 0 0 0 "*I'm on the corner of Pearl & 11th."
+0 7 10 8 0 0 "*I'm on the corner of Pearl & Broadway."
+11 0 0 9 0 0 "*I'm on the corner of Pearl & 13th. There's a small circular building to the north."
+0 10 0 0 0 0 "circular hut"
+
+""
+"Lark opens the door and asks me if my key isn't working. I enter the office."
+"Lark helpfully opens the door. "
+
+"brass KEY/KEY/" 1
+"blank transit FORM/FORM/" 1
+"completed transit FORM/FORM/" 0
+
+""
+""
+""
+
+0
+0
+0
