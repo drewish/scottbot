@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/drewish/scottkit.git
-  revision: cf2b41b5318024e16d3636b2aefa5a6a7199ebaf
-  branch: external-loop
+  revision: 64d1de19977730098b07c1616633ed2fe8746b54
+  branch: master
   specs:
     scottkit (1.5.0)
 

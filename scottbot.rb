@@ -37,36 +37,52 @@ Slack.configure do |config|
 end
 
 client = Slack::RealTime::Client.new
-channel = nil
+# probably should be locking this
+@games_by_channel = {}
 
-file_name = 'game.sao'
-game = MyGame.new(output_buffer: StringIO.new)
-game.load(IO.read(file_name))
-game.decompile(StringIO.new)
+def start_game
+  file_name = 'game.sao'
+  game = MyGame.new(output_buffer: StringIO.new)
+  game.load(IO.read(file_name))
+  game.decompile(StringIO.new)
+  game
+end
 
 client.on :hello do
   puts "Successfully connected, welcome '#{client.self.name}' to the '#{client.team.name}' team at https://#{client.team.domain}.slack.com."
 
-  # Limit the conversation to one channel for now
-  channel = client.channels.values.find { |c| c.name == 'bots' }
-
-  game.prepare_to_play
-  client.message channel: channel['id'], text: game.prompt_for_turn
+  # TODO: restore games?
 end
 
 client.on :message do |data|
-  next if data.channel != channel['id']
-  # TODO: Figure out what do do about starting a new game
-  next if game.finished?
+  # require 'pry'; binding.pry
+  # puts data.inspect
 
-  client.typing channel: data.channel
+  case data.channel[0]
+  when 'C' # Group
+    puts 'group'
+    if data.text =~ /play .*?game/
+      client.message channel: data.channel, text: "DM me if you want to play"
+    end
+  when 'D' # Direct
+    puts 'direct'
+    if @games_by_channel[data.channel] && !@games_by_channel[data.channel].finished?
+      game = @games_by_channel[data.channel]
+      client.typing channel: data.channel
 
-  game.process_turn(data.text)
-  client.message channel: data.channel, text: game.prompt_for_turn
+      game.process_turn(data.text)
+      client.message channel: data.channel, text: game.prompt_for_turn
+    else
+      game = @games_by_channel[data.channel] = start_game
+      game.prepare_to_play
+      client.message channel: data.channel, text: game.prompt_for_turn
+    end
+  end
 end
 
 client.on :close do |_data|
   puts "Client is about to disconnect"
+  # TODO: save games?
 end
 
 client.on :closed do |_data|
