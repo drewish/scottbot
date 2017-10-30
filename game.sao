@@ -1,36 +1,51 @@
 0
-2
-2
+4
+17
 18
-11
+17
 -1
 1
 0
 6
 -1
-2
+12
 1
 
-307 44 1 20 0 0 204 9600
-307 44 6 20 0 0 354 9600
-457 44 1 20 0 0 8164 0
+307 21 20 40 0 0 10800 0
+10 24 0 0 0 0 150 0
+458 24 0 0 0 0 300 0
+308 24 0 0 0 0 450 0
+610 44 1 20 0 0 654 9600
+610 44 6 20 0 0 804 9600
+760 44 1 20 0 0 8164 0
+760 44 6 0 0 0 900 0
+760 104 1 20 0 0 8164 0
+760 104 6 0 0 0 1050 0
+911 284 80 0 0 0 1209 7800
+1061 81 284 300 0 0 1554 9600
+1061 81 264 300 0 0 1704 9600
+1061 81 0 0 0 0 1863 0
+1200 0 0 0 0 0 9750 0
+1350 0 0 0 0 0 9900 0
+2100 0 0 0 0 0 9600 0
+2250 0 0 0 0 0 9450 0
 
 "AUT" "ANY"
 "GO" "NORTH"
-"KNOCK" "SOUTH"
-"OPEN" "EAST"
-"" "WEST"
-"" "UP"
-"" "DOWN"
-"" "DOOR"
-"" "KEY"
-"" "FORM"
-"GET" ""
-"*GRAB" ""
-"*PICKUP" ""
-"*TAKE" ""
-"" ""
-"" ""
+"FILL" "SOUTH"
+"GIVE" "EAST"
+"KNOCK" "WEST"
+"OPEN" "UP"
+"BUY" "DOWN"
+"SMOKE" "FORM"
+"SCORE" "BOWL"
+"INVENT" "*WATER"
+"GET" "DOOR"
+"*GRAB" "MARIJU"
+"*PICKUP" "*WEED"
+"*TAKE" "*POT"
+"LOOK" "KEY"
+"QUIT" ""
 "" ""
 "" ""
 "DROP" ""
@@ -41,21 +56,63 @@
 0 0 2 0 0 0 "*I'm in Flations Bank. The employees look up expectantly. "
 5 0 0 2 0 0 "*I'm on the corner of Canyon & 11th. The building to the west has a Recurly logo on the door. The creek is to the south but crossing a busy street like Canyon Boulevard seems like too much trouble. I wonder what's to the north."
 6 4 0 0 0 0 "nameless alley off 11th street. The DOOR to the Recurly office is locked. Delivery trucks block the alley to the the east. Walnut Street is to the north."
-8 5 7 0 0 0 "*I'm on the corner of Walnut & 11th."
-9 0 0 6 0 0 "*I'm on the corner of Walnut & Broadway."
-0 6 9 0 0 0 "*I'm on the corner of Pearl & 11th."
-0 7 10 8 0 0 "*I'm on the corner of Pearl & Broadway."
-11 0 0 9 0 0 "*I'm on the corner of Pearl & 13th. There's a small circular building to the north."
-0 10 0 0 0 0 "circular hut"
+11 5 7 0 0 0 "*I'm on the corner of Walnut & 11th."
+12 0 8 6 0 0 "*I'm on the corner of Walnut & Broadway."
+15 0 9 7 0 0 "*I'm on the corner of Walnut & 13th."
+17 10 10 8 0 0 "*I'm on the corner of Walnut & 14th."
+9 0 0 9 0 0 "the RTD bus station"
+0 6 12 0 0 0 "*I'm on the corner of Pearl & 11th."
+0 7 15 11 0 13 "*I'm on the corner of Pearl & Broadway. A curious staircase leads down from the street."
+0 14 0 0 12 0 "room with a low ceiling. Based on the smell it seems to be a dispensary. A pleasant gentleman asks to see your ID before you can go inside."
+13 0 0 0 0 0 "a room filled with all kinds of marijuana."
+16 8 17 12 0 0 "*I'm on the corner of Pearl & 13th. There's a small circular building to the north."
+0 15 0 0 0 0 "circular hut"
+0 9 0 15 0 0 "*I'm on the corner of Pearl & 14th."
 
 ""
+"A friendly tan and white dog approaches and sniffs you. She turns and walks to an empty bowl on the floor and begins tapping it with her paw."
+"The dog looks at your strangely. Then taps her bowl again. It seems she would like to drink from there."
+"The dog drinks the water greedily, then walks a few feet until she finds a spot to her liking. She flops over gracelessly and lets out a contented sigh."
 "Lark opens the door and asks me if my key isn't working. I enter the office."
 "Lark helpfully opens the door. "
+"You pull on the door but it's locked. Perhaps you should try knocking?"
+"Everyone looks at you... eventually Rafi walks over and opens the door."
+"Oh, I might want to think twice, I just remembered this passage from the Employee Handbook:
+
+"
+"> The legal status of a controlled substances, including marijuana, shall be
+> determined by federal, rather than Colorado, law. Colorado voters approved
+> Amendment 20 on the 2000 November Election ballot, allowing for medical use
+> of marijuana. In November 2012, Colorado voters approved Amendment 64, which
+> legalized the use of recreational marijuana. Neither measure requires the
+> Company to accommodate the medical use or possession of marijuana in any work
+> place. Likewise, the Company will not tolerate or accommodate the off-duty
+> use of marijuana or any other illegal drug by employees."
+"`No way bud! You're outta here!'` the employee yells as she pushes me out the door and up the stairs."
+"`Are you serious?! Get out of here'` the employee yells as he pushes me toward the stairs."
+"Uh oh... someone made a very poor choice on their first day."
 
 "brass KEY/KEY/" 1
-"blank transit FORM/FORM/" 1
-"completed transit FORM/FORM/" 0
+"blank transit form/FORM/" 1
+"completed transit form/FORM/" 0
+"stamped transit form/FORM/" 0
+"some stinky marijuana/MARIJU/" 0
 
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
 ""
 ""
 ""
