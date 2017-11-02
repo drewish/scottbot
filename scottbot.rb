@@ -1,31 +1,13 @@
 require 'slack-ruby-client'
 require 'scottkit/game'
 
-# The game sends it output to stdout but we just capture the strings in a buffer
-# and pull them out as chunks which we send in a single message. We ignore the
-# play method since it blocks on `gets` and just call some methods directly.
+# Make a couple changes to the ScottKit game... we ignore the play method's loop
+# and call all its methods from inside the slack callbacks.
 class MyGame < ScottKit::Game
-  attr_reader :output_buffer
-
-  def initialize(options)
-    @output_buffer = StringIO.new
-    super
-  end
-
-  def puts *args
-    output_buffer.puts *args
-  end
-
-  def print *args
-    output_buffer.print *args
-  end
-
-  # Grab all the output and reset the buffer
-  def prompt_for_turn
-    super
-
-    string = output_buffer.string
-    output_buffer.reopen('')
+  # Grab all the output and reset the buffer.
+  def grab_output
+    string = output.string
+    output.reopen('')
     string
   end
 end
@@ -37,14 +19,16 @@ Slack.configure do |config|
 end
 
 client = Slack::RealTime::Client.new
-# probably should be locking this
+# TODO: should probably be locking this to prevent race conditions
 @games_by_channel = {}
 
 def start_game
   file_name = 'game.sao'
-  game = MyGame.new(output_buffer: StringIO.new)
+  game = MyGame.new(output: StringIO.new, no_wait: true)
   game.load(IO.read(file_name))
   game.decompile(StringIO.new)
+  game.prepare_to_play
+  game.prompt_for_turn
   game
 end
 
@@ -60,22 +44,20 @@ client.on :message do |data|
 
   case data.channel[0]
   when 'C' # Group
-    puts 'group'
     if data.text =~ /play .*?game/
       client.message channel: data.channel, text: "DM me if you want to play"
     end
   when 'D' # Direct
-    puts 'direct'
     if @games_by_channel[data.channel] && !@games_by_channel[data.channel].finished?
       game = @games_by_channel[data.channel]
       client.typing channel: data.channel
 
       game.process_turn(data.text)
-      client.message channel: data.channel, text: game.prompt_for_turn
+      game.prompt_for_turn unless game.finished?
+      client.message channel: data.channel, text: game.grab_output
     else
       game = @games_by_channel[data.channel] = start_game
-      game.prepare_to_play
-      client.message channel: data.channel, text: game.prompt_for_turn
+      client.message channel: data.channel, text: game.grab_output
     end
   end
 end

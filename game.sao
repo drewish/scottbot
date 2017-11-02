@@ -1,6 +1,6 @@
 0
 4
-17
+18
 18
 17
 -1
@@ -8,45 +8,46 @@
 0
 6
 -1
-12
+13
 1
 
-307 21 20 40 0 0 10800 0
-10 24 0 0 0 0 150 0
-458 24 0 0 0 0 300 0
-308 24 0 0 0 0 450 0
-610 44 1 20 0 0 654 9600
-610 44 6 20 0 0 804 9600
-760 44 1 20 0 0 8164 0
-760 44 6 0 0 0 900 0
-760 104 1 20 0 0 8164 0
-760 104 6 0 0 0 1050 0
-911 284 80 0 0 0 1209 7800
-1061 81 284 300 0 0 1554 9600
-1061 81 264 300 0 0 1704 9600
-1061 81 0 0 0 0 1863 0
-1200 0 0 0 0 0 9750 0
-1350 0 0 0 0 0 9900 0
-2100 0 0 0 0 0 9600 0
-2250 0 0 0 0 0 9450 0
+300 0 0 0 0 0 150 0
+457 21 20 40 0 0 10800 0
+10 24 0 0 0 0 300 0
+608 24 0 0 0 0 450 0
+458 24 0 0 0 0 600 0
+760 44 1 20 0 0 804 9600
+760 44 6 20 0 0 954 9600
+910 44 1 20 0 0 8164 0
+910 44 6 0 0 0 1050 0
+910 104 1 20 0 0 8164 0
+910 104 6 20 0 0 1254 9600
+1061 284 80 0 0 0 1360 7800
+1211 81 284 300 0 0 1704 9600
+1211 81 264 300 0 0 1854 9600
+1211 81 0 0 0 0 2013 0
+1350 0 0 0 0 0 9750 0
+2100 0 0 0 0 0 9900 0
+2250 0 0 0 0 0 9600 0
+2400 0 0 0 0 0 9450 0
 
 "AUT" "ANY"
 "GO" "NORTH"
-"FILL" "SOUTH"
-"GIVE" "EAST"
-"KNOCK" "WEST"
-"OPEN" "UP"
-"BUY" "DOWN"
-"SMOKE" "FORM"
-"SCORE" "BOWL"
-"INVENT" "*WATER"
+"HELP" "SOUTH"
+"FILL" "EAST"
+"GIVE" "WEST"
+"KNOCK" "UP"
+"OPEN" "DOWN"
+"BUY" "FORM"
+"SMOKE" "BOWL"
+"SCORE" "*WATER"
 "GET" "DOOR"
 "*GRAB" "MARIJU"
 "*PICKUP" "*WEED"
 "*TAKE" "*POT"
-"LOOK" "KEY"
+"INVENT" "KEY"
+"LOOK" ""
 "QUIT" ""
-"" ""
 "" ""
 "DROP" ""
 
@@ -70,6 +71,7 @@
 0 9 0 15 0 0 "*I'm on the corner of Pearl & 14th."
 
 ""
+"This is a text adventure. The commands all follow a *noun* *verb* format. So you can type something like like `get form` or `look`."
 "A friendly tan and white dog approaches and sniffs you. She turns and walks to an empty bowl on the floor and begins tapping it with her paw."
 "The dog looks at your strangely. Then taps her bowl again. It seems she would like to drink from there."
 "The dog drinks the water greedily, then walks a few feet until she finds a spot to her liking. She flops over gracelessly and lets out a contented sigh."
@@ -77,7 +79,7 @@
 "Lark helpfully opens the door. "
 "You pull on the door but it's locked. Perhaps you should try knocking?"
 "Everyone looks at you... eventually Rafi walks over and opens the door."
-"Oh, I might want to think twice, I just remembered this passage from the Employee Handbook:
+"Oh, I might want to think twice before smoking it, I just remembered this passage from the Employee Handbook:
 
 "
 "> The legal status of a controlled substances, including marijuana, shall be
@@ -90,14 +92,15 @@
 > use of marijuana or any other illegal drug by employees."
 "`No way bud! You're outta here!'` the employee yells as she pushes me out the door and up the stairs."
 "`Are you serious?! Get out of here'` the employee yells as he pushes me toward the stairs."
-"Uh oh... someone made a very poor choice on their first day."
+"Uh oh! I didn't realize HR was visiting Boulder today, yet here they are standing in front of me. Looks like I'm about to get fired."
 
-"brass KEY/KEY/" 1
+"brass key/KEY/" 1
 "blank transit form/FORM/" 1
 "completed transit form/FORM/" 0
 "stamped transit form/FORM/" 0
 "some stinky marijuana/MARIJU/" 0
 
+""
 ""
 ""
 ""
