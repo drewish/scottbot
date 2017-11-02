@@ -21,7 +21,7 @@ This library includes a dummy `game.sao` file but you'll probably want to replac
 Set the API Token in the `SLACK_API_TOKEN` environment variable and start up the app:
 
 ```bash
-SLACK_API_TOKEN=xoxb-XXXXXXXXXXXX-XXXXXXXXXXXXXXXXXXXXXXXX bundle exec ruby ./scottbot.rb
+SLACK_API_TOKEN=xoxb-XXXXXXXXXXXX-XXXXXXXXXXXXXXXXXXXXXXXX ./scottbot.rb
 ```
 
 It will connect to your team and then you can send the bot a direct message to play.

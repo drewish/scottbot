@@ -1,3 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'bundler/setup'
 require 'slack-ruby-client'
 require 'scottkit/game'
 
@@ -10,6 +14,10 @@ class MyGame < ScottKit::Game
     output.reopen('')
     string
   end
+end
+
+unless ENV['SLACK_API_TOKEN']
+  fail "Must provde a Slack API token in the SLACK_API_TOKEN environment variable"
 end
 
 Slack.configure do |config|
