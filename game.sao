@@ -1,6 +1,6 @@
 0
 9
-35
+36
 21
 18
 -1
@@ -8,7 +8,7 @@
 1
 6
 -1
-29
+31
 1
 
 300 0 0 0 0 0 150 0
@@ -23,26 +23,27 @@
 1509 24 41 40 60 0 1572 0
 10 24 0 0 0 0 1650 0
 1060 0 0 0 0 0 1800 0
-1211 24 0 0 0 0 1800 0
-761 24 0 0 0 0 1950 0
-1363 44 1 20 0 0 2154 9600
-1363 44 6 20 0 0 2304 9600
-2113 44 1 20 0 0 8164 0
-2113 44 6 0 0 0 2400 0
-2113 124 1 20 0 0 8164 0
-2113 124 6 20 0 0 2604 9600
-614 224 0 0 0 0 2700 0
-1208 224 86 0 0 0 2850 0
-1208 224 81 80 100 0 3072 0
-2265 304 160 0 0 0 3172 7800
-2415 161 304 320 0 0 3504 9600
-2415 161 284 320 0 0 3654 9600
-2415 161 0 0 0 0 3813 0
-614 344 0 0 0 0 3900 0
-908 344 0 0 0 0 4050 0
-1509 344 33 0 0 0 4200 0
-1509 344 53 0 0 0 4200 0
-1509 344 61 60 80 0 4422 0
+1211 24 0 0 0 0 1950 0
+761 24 0 0 0 0 2100 0
+1363 44 121 20 0 0 2304 9600
+1363 44 126 20 0 0 2454 9600
+2113 44 121 20 0 0 8164 0
+2113 44 126 0 0 0 2550 0
+2113 124 121 20 0 0 8164 0
+2113 124 126 20 0 0 2754 9600
+614 224 0 0 0 0 2850 0
+1208 224 86 0 0 0 3000 0
+1208 224 81 80 100 0 3222 0
+1515 304 0 0 0 0 3300 0
+2265 304 160 0 0 0 3474 7800
+2415 161 304 320 0 0 3804 9600
+2415 161 284 320 0 0 3954 9600
+2415 161 0 0 0 0 4113 0
+614 344 0 0 0 0 4200 0
+908 344 0 0 0 0 4350 0
+1509 344 33 0 0 0 4500 0
+1509 344 53 0 0 0 4500 0
+1509 344 61 60 80 0 4722 0
 2550 0 0 0 0 0 9750 0
 2850 0 0 0 0 0 9900 0
 3000 0 0 0 0 0 9600 0
@@ -75,20 +76,20 @@
 6 2 0 0 0 0 "*I'm in the Recurly Boulder office. The smell of free breakfast fills the office."
 0 4 0 3 0 0 "vestibule between the Recurly office and a bank. The *door* to the office is locked."
 0 0 2 0 0 0 "*I'm in Flatirons Bank. The employees look up expectantly."
-6 0 5 2 0 0 "*I'm on the corner of 11th & Canyon. The building to the west has a Recurly logo on the door. The creek is to the South but crossing a busy street like Canyon seems like too much trouble. I wonder what's to the North."
+6 0 5 2 0 0 "*I'm on the corner of 11th & Canyon. The building to the West has a Recurly logo on the door. The creek is to the South but crossing a busy street like Canyon seems like too much trouble. I wonder what's to the North."
 8 0 0 4 0 0 "*I'm on the corner of 11th & Broadway"
 7 4 0 0 0 0 "nameless alley off 11th street. The *door* to the Recurly office is locked. Delivery trucks block the alley to the the East. Walnut Street is to the North."
 12 6 8 0 0 0 "*I'm on the corner of 11th & Walnut."
 13 5 9 7 0 0 "*I'm on the corner of Broadway & Walnut."
 16 0 10 8 0 0 "*I'm on the corner of 13th & Walnut."
 18 11 11 9 0 0 "*I'm on the corner of 14th & Walnut. The bus station is to the South."
-10 0 0 10 0 0 "the RTD bus station"
+10 0 0 10 0 0 "*I'm in the RTD bus station."
 0 7 13 0 0 0 "*I'm on the corner of 11th & Pearl."
 0 8 16 12 0 14 "*I'm on the corner of Broadway & Pearl. A curious staircase leads down from the street."
-0 15 0 0 13 0 "room with a low ceiling. Based on the smell it seems to be a dispensary. A pleasant gentleman asks to see your ID before you can go inside."
-14 0 0 0 0 0 "a room filled with all kinds of *marijuana*."
+0 15 0 0 13 0 "room with a low ceiling. Based on the smell it seems to be a dispensary. A sign informs me that they'll need to an ID before going inside."
+14 0 0 0 0 0 "low room filled with all kinds of *marijuana*."
 17 9 18 13 0 0 "*I'm on the corner of 13th & Pearl. There's a small circular building to the North."
-0 16 0 0 0 0 "circular hut"
+0 16 0 0 0 0 "circular hut. This is the City of Boulder's Information Center."
 0 10 0 16 0 0 "*I'm on the corner of 14th & Pearl."
 
 ""
@@ -97,23 +98,26 @@
 
 I know a few two word commands that follow a *verb* *noun* or just *verb* format. So you can type something like like *get form* or *look*. I'll accept some short cuts so instead of saying *go north* can shorten it to *north* or even *n*.
 "
-"`Welcome! I hope you're having a good first day` she tells me."
-"I stop and fill in my EcoPass authorization form. Now it's ready for me to *get* a *signature*."
+"`Welcome! I hope you're having a good first day,` she tells me.
+`Yeah everyone's been really helpful, it's great to have a buddy to show me around,` I say motioning to you. `Can you help me get the EcoPass?`
+`Of course!` she says. `Just *get* the *form*, fill it out, I can sign it and we'll send you on your way.`"
+"I grab a pen and fill out my EcoPass authorization form. Now it's all ready for me to *get* Jayda's *signature*."
 "I'll need to *get* the *form* before I can fill it out."
 "I need to *fill* out my *form* I can get Jayda's signature."
 "I can't sign it myself. I need to *get* Jayda's *signature*."
 "Jayda looks at my blank EcoPass authorization form and says, `you'll need to *fill* out that *form* before I can sign it.`"
-"You need to *get* the *form* before you can get a signature."
+"I need to *get* the *form* before I can get a signature."
 "Jayda signs my EcoPass authorization form and says, `Alright, now you need to take this over to the Information Center on the corner of 13th & Pearl.`"
-"A friendly tan and white dog approaches and sniffs you. She turns and walks to an empty *bowl* on the floor and begins tapping it with her paw."
-"The dog looks at me strangely. then taps her bowl again. It seems like she wants me to *fill* her *bowl*."
-"The dog drinks the water greedily, then walks a few feet until she finds a spot to her liking. She flops over gracelessly and lets out a contented sigh."
+"A friendly tan and white dog approaches and sniffs me. She walks to an empty *bowl* on the floor under a desk and looks back at me. She makes a sad squeaking sound and begins tapping the bowl with her paw."
+"The dog looks at me curiously then taps her bowl again. It seems like she wants me to *fill* her *bowl*."
+"The dog cocks her head to the site squeaks again and taps her bowl. It seems like she wants me to *fill* her *bowl*."
+"The dog drinks the water greedily, then walks a few feet until she finds a spot to her liking. She flops over gracelessly with a contented sigh."
 "Lark opens the door and asks me if my key isn't working. I enter the office."
-"Lark helpfully opens the door. "
-"You pull on the door but it's locked. Perhaps you should try knocking?"
-"I pulling on the door but it's locked. The sound of the door jiggling causes everyone to look up at me. I gesture at down at the lock and eventually Rafi walks over and opens the door.
+"Lark looks over, recognizes me and then helpfully opens the door. "
+"I pull on the *door* but it's locked. Perhaps I should try *knock*ing?"
+"I pull on the door but it's locked. At the sound of the door jiggling, everyone looks up at me. I point down at down at the lock. Eventually Rafi walks over and opens the door.
 
-`You should get your key,` he tells me."
+`You should *get* your *key*,` he tells me."
 "I wave through the thick glass to get the attention of the woman working at the sales window. She looks up from her computer, `You here for an EcoPass? *Give* me your *form*.`"
 "The woman working in the RTD sales window asks me, `What can I do for you?`
 `I want to get my Ecopass.`
@@ -121,13 +125,12 @@ I know a few two word commands that follow a *verb* *noun* or just *verb* format
 `Oh... I don't have one,` I say.
 `Then you'll need head over to the city's Information Center on 13th & Pearl. They can help you there.`"
 "The RTD looks over he form then starts typing on her computer.
-
 A minute later she motions that she's finished and for me to move backwards a bit. She points a webcam in my direction and I give her an awkward smile as she takes my photo through the thick glass.
 `Have a seat for a minute and I'll call you up when your pass is finished printing.`
 I sit and wait for a few minutes and the moment finally arrives, I'm now an EcoPass holder!
-
-Now I can ride the entire RTD system for free. I'm so excited I feel like we should take the FF2 down to Union Station, hop the A train out to DIA, and ride the AB1 right back here!"
-"Oh, I might want to think twice before smoking it, I just remembered this passage from the Employee Handbook:
+Now I can ride anywhere in the entire RTD system for free. Now I could take the FF2 down to Union Station, hop the A train out to DIA, and ride the AB1 right back here!"
+"All the marijuana is behind glass. I'll have to *buy* it first."
+"I just remembered this passage from the Employee Handbook:
 
 "
 "> The legal status of a controlled substances, including marijuana, shall be
@@ -137,8 +140,10 @@ Now I can ride the entire RTD system for free. I'm so excited I feel like we sho
 > legalized the use of recreational marijuana. Neither measure requires the
 > Company to accommodate the medical use or possession of marijuana in any work
 > place. Likewise, the Company will not tolerate or accommodate the off-duty
-> use of marijuana or any other illegal drug by employees."
-"`No way bud! You're out of here!'` the employee yells as he pushes me out the door and up the stairs."
+> use of marijuana or any other illegal drug by employees.
+
+So I might want to think twice before I *smoke* any of it."
+"`No way bud! You're out of here!` the employee yells as he grabs my arm and drags me out the door and up the stairs."
 "`Are you serious?! Get out of here!` the employee yells as she pushes me toward the stairs."
 "Uh oh! I didn't realize HR was visiting Boulder today, yet here they are standing in front of me. Looks like I'm about to get fired."
 "The employee looks up at me and says, `What can I do for you? Do you need me to *get* my *signature* on your EcoPass form?`"
@@ -150,17 +155,18 @@ I show him my ID and he signs my form.
 
 `Take this over to the RTD Downtown Boulder Station on 14th & Walnut,` he says as he hands the form back to me."
 
-"door *key*/KEY/" 1
-"blank EcoPass authorization *form*/FORM/" 1
-"completed EcoPass authorization *form*/FORM/" 0
-"completed EcoPass authorization *form* with one signature/FORM/" 0
-"completed EcoPass authorization *form* with two signatures/FORM/" 0
-"EcoPass" 0
-"*Jayda*, the office manager" 1
+"the office manager *Jayda*" 1
+"a blank EcoPass authorization *form*/FORM/" 1
+"a completed EcoPass authorization *form*/FORM/" 0
+"a completed EcoPass authorization *form* with one signature/FORM/" 0
+"a completed EcoPass authorization *form* with two signatures/FORM/" 0
+"*EcoPass*" 0
+"a door *key*/KEY/" 1
 "an RTD *employee*" 11
-"some stinky marijuana/MARIJU/" 0
+"some stinky *marijuana*/MARIJU/" 0
 "a city *employee*" 17
 
+""
 ""
 ""
 ""
