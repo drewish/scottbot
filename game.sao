@@ -1,47 +1,48 @@
 0
-8
-34
+9
+35
 21
 18
 -1
 1
-0
+1
 6
 -1
-28
+29
 1
 
 300 0 0 0 0 0 150 0
 450 0 0 0 0 0 300 0
-607 24 21 20 40 0 522 0
-607 24 33 0 0 0 600 0
-757 24 33 0 0 0 750 0
-757 24 41 0 0 0 900 0
-1508 24 21 0 0 0 1050 0
-1508 24 33 0 0 0 1200 0
-1508 24 41 40 60 0 1422 0
-10 24 0 0 0 0 1500 0
-909 0 0 0 0 0 1650 0
-1060 24 0 0 0 0 1650 0
-610 24 0 0 0 0 1800 0
-1212 44 1 20 0 0 2004 9600
-1212 44 6 20 0 0 2154 9600
-1362 44 1 20 0 0 8164 0
-1362 44 6 0 0 0 2250 0
-1362 124 1 20 0 0 8164 0
-1362 124 6 20 0 0 2454 9600
-2113 224 0 0 0 0 2550 0
-1057 224 86 0 0 0 2700 0
-1057 224 81 80 100 0 2922 0
-2264 304 140 0 0 0 3021 7800
-2414 141 304 320 0 0 3354 9600
-2414 141 284 320 0 0 3504 9600
-2414 141 0 0 0 0 3663 0
-2113 344 0 0 0 0 3750 0
-757 344 0 0 0 0 3900 0
-1508 344 33 0 0 0 4050 0
-1508 344 53 0 0 0 4050 0
-1508 344 61 60 80 0 4272 0
+607 24 0 0 0 0 450 0
+758 24 21 20 40 0 672 0
+758 24 33 0 0 0 750 0
+908 24 33 0 0 0 900 0
+908 24 41 0 0 0 1050 0
+1509 24 21 0 0 0 1200 0
+1509 24 33 0 0 0 1350 0
+1509 24 41 40 60 0 1572 0
+10 24 0 0 0 0 1650 0
+1060 0 0 0 0 0 1800 0
+1211 24 0 0 0 0 1800 0
+761 24 0 0 0 0 1950 0
+1363 44 1 20 0 0 2154 9600
+1363 44 6 20 0 0 2304 9600
+2113 44 1 20 0 0 8164 0
+2113 44 6 0 0 0 2400 0
+2113 124 1 20 0 0 8164 0
+2113 124 6 20 0 0 2604 9600
+614 224 0 0 0 0 2700 0
+1208 224 86 0 0 0 2850 0
+1208 224 81 80 100 0 3072 0
+2265 304 160 0 0 0 3172 7800
+2415 161 304 320 0 0 3504 9600
+2415 161 284 320 0 0 3654 9600
+2415 161 0 0 0 0 3813 0
+614 344 0 0 0 0 3900 0
+908 344 0 0 0 0 4050 0
+1509 344 33 0 0 0 4200 0
+1509 344 53 0 0 0 4200 0
+1509 344 61 60 80 0 4422 0
 2550 0 0 0 0 0 9750 0
 2850 0 0 0 0 0 9900 0
 3000 0 0 0 0 0 9600 0
@@ -51,21 +52,21 @@
 "GO" "NORTH"
 "?" "SOUTH"
 "HELP" "EAST"
-"FILL" "WEST"
-"SIGN" "UP"
-"WATER" "DOWN"
+"TALK" "WEST"
+"FILL" "UP"
+"SIGN" "DOWN"
+"WATER" "JAYDA"
 "GIVE" "FORM"
 "KNOCK" "SIGNAT"
-"OPEN" "DOG"
-"GET" "BOWL"
-"*GRAB" "*WATER"
-"*PICKUP" "DOOR"
-"*TAKE" "EMPLOY"
-"TALK" "MARIJU"
-"BUY" "*WEED"
-"SMOKE" "*POT"
-"SCORE" "KEY"
-"DROP" ""
+"GET" "DOG"
+"*GRAB" "BOWL"
+"*PICKUP" "*WATER"
+"*TAKE" "DOOR"
+"OPEN" "EMPLOY"
+"BUY" "MARIJU"
+"SMOKE" "*WEED"
+"SCORE" "*POT"
+"DROP" "KEY"
 "INVENT" ""
 "LOOK" ""
 "QUIT" ""
@@ -73,10 +74,10 @@
 0 0 0 0 0 0 ""
 6 2 0 0 0 0 "*I'm in the Recurly Boulder office. The smell of free breakfast fills the office."
 0 4 0 3 0 0 "vestibule between the Recurly office and a bank. The *door* to the office is locked."
-0 0 2 0 0 0 "*I'm in Flatirons Bank. The employees look up expectantly. "
+0 0 2 0 0 0 "*I'm in Flatirons Bank. The employees look up expectantly."
 6 0 5 2 0 0 "*I'm on the corner of 11th & Canyon. The building to the west has a Recurly logo on the door. The creek is to the South but crossing a busy street like Canyon seems like too much trouble. I wonder what's to the North."
 8 0 0 4 0 0 "*I'm on the corner of 11th & Broadway"
-7 4 0 0 0 0 "nameless alley off 11th street. The *door* to the Recurly office is locked. Delivery trucks block the alley to the the east. Walnut Street is to the North."
+7 4 0 0 0 0 "nameless alley off 11th street. The *door* to the Recurly office is locked. Delivery trucks block the alley to the the East. Walnut Street is to the North."
 12 6 8 0 0 0 "*I'm on the corner of 11th & Walnut."
 13 5 9 7 0 0 "*I'm on the corner of Broadway & Walnut."
 16 0 10 8 0 0 "*I'm on the corner of 13th & Walnut."
@@ -92,24 +93,27 @@
 
 ""
 "If you need *help* just ask!"
-"This is a text adventure where I am a new Recurly employee on my first day of work. I need your help to get an Ecopass so I can take the bus for free!
+"This is a text adventure where you help me, a new Recurly employee, on my first day of work. I need your help to get an EcoPass so I can take the bus for free!
 
 I know a few two word commands that follow a *verb* *noun* or just *verb* format. So you can type something like like *get form* or *look*. I'll accept some short cuts so instead of saying *go north* can shorten it to *north* or even *n*.
 "
+"`Welcome! I hope you're having a good first day` she tells me."
 "I stop and fill in my EcoPass authorization form. Now it's ready for me to *get* a *signature*."
 "I'll need to *get* the *form* before I can fill it out."
 "I need to *fill* out my *form* I can get Jayda's signature."
 "I can't sign it myself. I need to *get* Jayda's *signature*."
 "Jayda looks at my blank EcoPass authorization form and says, `you'll need to *fill* out that *form* before I can sign it.`"
 "You need to *get* the *form* before you can get a signature."
-"Jayda signs my EcoPass authorization form and says, `Alright, now you need to *go* *North* east to take this to the Information Center on the corner of 13th & Pearl.`"
+"Jayda signs my EcoPass authorization form and says, `Alright, now you need to take this over to the Information Center on the corner of 13th & Pearl.`"
 "A friendly tan and white dog approaches and sniffs you. She turns and walks to an empty *bowl* on the floor and begins tapping it with her paw."
 "The dog looks at me strangely. then taps her bowl again. It seems like she wants me to *fill* her *bowl*."
 "The dog drinks the water greedily, then walks a few feet until she finds a spot to her liking. She flops over gracelessly and lets out a contented sigh."
 "Lark opens the door and asks me if my key isn't working. I enter the office."
 "Lark helpfully opens the door. "
 "You pull on the door but it's locked. Perhaps you should try knocking?"
-"I start pulling on the door but it's locked. The sound of the door jiggling causes everyone to look up at me. I gesture at down at the lock and eventually Rafi walks over and opens the door."
+"I pulling on the door but it's locked. The sound of the door jiggling causes everyone to look up at me. I gesture at down at the lock and eventually Rafi walks over and opens the door.
+
+`You should get your key,` he tells me."
 "I wave through the thick glass to get the attention of the woman working at the sales window. She looks up from her computer, `You here for an EcoPass? *Give* me your *form*.`"
 "The woman working in the RTD sales window asks me, `What can I do for you?`
 `I want to get my Ecopass.`
@@ -137,7 +141,7 @@ Now I can ride the entire RTD system for free. I'm so excited I feel like we sho
 "`No way bud! You're out of here!'` the employee yells as he pushes me out the door and up the stairs."
 "`Are you serious?! Get out of here!` the employee yells as she pushes me toward the stairs."
 "Uh oh! I didn't realize HR was visiting Boulder today, yet here they are standing in front of me. Looks like I'm about to get fired."
-"The employee looks up at me and says, `What can I do for you? Do you need me to *sign* your EcoPass *form*?`"
+"The employee looks up at me and says, `What can I do for you? Do you need me to *get* my *signature* on your EcoPass form?`"
 "I can't sign it myself. I'll need to *get* the city employee's *signature*."
 "The city employee tilts his head empathetically and says, `Sorry, but you'll have to get the form signed by your office's EcoPass contact. It's often the office manager, human resource manager or owner. Come back when you've got the paperwork.`"
 "The city employee looks over the form and proclaims `Everything looks good here! Can I see your government issued photo ID?`
@@ -152,10 +156,12 @@ I show him my ID and he signs my form.
 "completed EcoPass authorization *form* with one signature/FORM/" 0
 "completed EcoPass authorization *form* with two signatures/FORM/" 0
 "EcoPass" 0
+"*Jayda*, the office manager" 1
 "an RTD *employee*" 11
 "some stinky marijuana/MARIJU/" 0
 "a city *employee*" 17
 
+""
 ""
 ""
 ""
