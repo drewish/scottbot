@@ -1,1 +1,1 @@
-worker: scottbot.rb
+worker: ./scottbot.rb
