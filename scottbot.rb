@@ -46,6 +46,13 @@ client.on :hello do
   # TODO: restore games?
 end
 
+def adjust_output output
+  # strip off the startup license message
+  output = output.sub(/ScottKit,.*2 license\.\n\n/m, '')
+  # fix the prompt
+  output = output.sub('Tell me what to do ?', 'Tell me what to do?')
+end
+
 client.on :message do |data|
   # require 'pry'; binding.pry
   # puts data.inspect
@@ -62,10 +69,10 @@ client.on :message do |data|
 
       game.process_turn(data.text)
       game.prompt_for_turn unless game.finished?
-      client.message channel: data.channel, text: game.grab_output
+      client.message channel: data.channel, text: adjust_output(game.grab_output)
     else
       game = @games_by_channel[data.channel] = start_game
-      client.message channel: data.channel, text: game.grab_output
+      client.message channel: data.channel, text: adjust_output(game.grab_output)
     end
   end
 end
