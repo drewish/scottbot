@@ -51,6 +51,10 @@ def adjust_output output
   output = output.sub(/ScottKit,.*2 license\.\n\n/m, '')
   # fix the prompt
   output = output.sub('Tell me what to do ?', 'Tell me what to do?')
+  # avoid having double returns part of the time
+  output = output.sub("\n\nTell me what to do?", "\nTell me what to do?")
+  # TODO: put a period on the end of "I can also see: ...
+  # TODO: bold the directions in "Obvious exits: .*""
 end
 
 client.on :message do |data|
