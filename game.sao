@@ -1,14 +1,14 @@
 0
 9
-38
+52
 27
-18
+20
 -1
 1
 1
 6
 -1
-33
+47
 1
 
 450 0 0 0 0 0 150 0
@@ -27,25 +27,39 @@
 2410 24 0 0 0 0 2100 0
 2562 24 0 0 0 0 2250 0
 2862 24 0 0 0 0 2400 0
-3014 44 121 20 0 0 2604 9600
-3014 44 126 20 0 0 2754 9600
+100 44 0 0 0 0 2550 0
+3014 44 121 20 0 0 2754 9600
+3014 44 126 20 0 0 2904 9600
 3164 44 121 20 0 0 8164 0
-3164 44 126 0 0 0 2850 0
+3164 44 126 0 0 0 3000 0
+100 84 0 0 0 0 3150 0
+100 104 0 0 0 0 3300 0
+100 124 0 0 0 0 3450 0
 3164 124 121 20 0 0 8164 0
-3164 124 126 20 0 0 3054 9600
-765 224 0 0 0 0 3150 0
-2557 224 86 0 0 0 3300 0
-2557 224 81 80 100 0 3522 0
-1516 304 0 0 0 0 3600 0
-3316 304 160 0 0 0 3776 7800
-3466 161 304 320 0 0 4104 9600
-3466 161 284 320 0 0 4254 9600
-3466 161 0 0 0 0 4413 0
-765 344 0 0 0 0 4500 0
-2107 344 0 0 0 0 4650 0
-1509 344 33 0 0 0 4800 0
-1509 344 53 0 0 0 4800 0
-1509 344 61 60 80 0 5022 0
+3164 124 126 20 0 0 3654 9600
+100 144 0 0 0 0 3750 0
+100 164 0 0 0 0 3900 0
+100 184 0 0 0 0 4050 0
+100 204 0 0 0 0 4200 0
+765 224 0 0 0 0 4350 0
+2557 224 86 0 0 0 4500 0
+2557 224 81 80 100 0 4722 0
+100 244 0 0 0 0 4800 0
+100 284 0 0 0 0 4950 0
+100 304 0 0 0 0 5100 0
+100 324 166 0 0 0 5250 0
+3316 324 161 360 0 0 5454 9600
+1516 344 0 0 0 0 5550 0
+3466 344 160 0 0 0 5739 7800
+3316 161 344 360 0 0 6054 9600
+3316 161 0 0 0 0 6213 0
+100 364 0 0 0 0 6300 0
+765 384 0 0 0 0 6450 0
+2107 384 0 0 0 0 6600 0
+1509 384 33 0 0 0 6750 0
+1509 384 53 0 0 0 6750 0
+1509 384 61 60 80 0 6972 0
+100 404 0 0 0 0 7050 0
 3600 0 0 0 0 0 9750 0
 3750 0 0 0 0 0 9900 0
 3900 0 0 0 0 0 9600 0
@@ -73,8 +87,8 @@
 "FILL" "KEY"
 "KNOCK" ""
 "OPEN" ""
-"BUY" ""
 "SMOKE" ""
+"BUY" ""
 "SCORE" ""
 "INVENT" ""
 "LOOK" ""
@@ -82,23 +96,25 @@
 
 0 0 0 0 0 0 ""
 6 2 0 0 0 0 "*I'm in the Recurly Boulder office. The smell of free breakfast fills the office."
-0 4 0 3 0 0 "vestibule between the Recurly office and a bank. The *door* to the office is locked."
+0 4 0 3 0 0 "vestibule between the Recurly office and a bank. "
 0 0 2 0 0 0 "*I'm in Flatirons Bank. The employees look up expectantly."
-6 0 5 2 0 0 "*I'm on the corner of 11th & Canyon. The building to the West has a Recurly logo on the door. The creek is to the South but crossing a busy street like Canyon seems like too much trouble. I wonder what's to the North."
+6 0 5 2 0 0 "*I'm on the corner of 11th & Canyon."
 8 0 0 4 0 0 "*I'm on the corner of 11th & Broadway"
-7 4 0 0 0 0 "nameless alley off 11th street. The *door* to the Recurly office is locked. Delivery trucks block the alley to the the East. Walnut Street is to the North."
-12 6 8 0 0 0 "*I'm on the corner of 11th & Walnut."
-13 5 9 7 0 0 "*I'm on the corner of Broadway & Walnut."
-16 0 10 8 0 0 "*I'm on the corner of 13th & Walnut."
-18 11 11 9 0 0 "*I'm on the corner of 14th & Walnut. The bus station is to the South."
+7 4 0 0 0 0 "nameless alley off 11th street."
+14 6 8 0 0 0 "*I'm on the corner of 11th & Walnut."
+15 5 9 7 0 0 "*I'm on the corner of Broadway & Walnut."
+18 0 10 8 0 0 "*I'm on the corner of 13th & Walnut."
+20 11 11 9 0 0 "*I'm on the corner of 14th & Walnut."
 10 0 0 10 0 0 "*I'm in the RTD bus station."
-0 7 13 0 0 0 "*I'm on the corner of 11th & Pearl."
-0 8 16 12 0 14 "*I'm on the corner of Broadway & Pearl. A curious staircase leads down from the street."
-0 15 0 0 13 0 "room with a low ceiling. Based on the smell it seems to be a dispensary. A sign informs me that they'll need to an ID before I can go into the next room."
-14 0 0 0 0 0 "low room with several counters selling all kinds of *marijuana*."
-17 9 18 13 0 0 "*I'm on the corner of 13th & Pearl. There's a small circular building to the North."
-0 16 0 0 0 0 "circular hut. This is the City of Boulder's Information Center."
-0 10 0 16 0 0 "*I'm on the corner of 14th & Pearl."
+13 0 14 0 0 0 "*I'm on the corner of 10th & Pearl."
+0 12 0 0 0 0 "coffee shop called Ozo."
+0 7 15 12 0 0 "*I'm on the corner of 11th & Pearl."
+0 8 18 14 0 16 "*I'm on the corner of Broadway & Pearl."
+0 17 0 0 15 0 "room with a low ceiling. Based on the smell it seems to be a dispensary."
+16 0 0 0 0 0 "low room with several counters selling all kinds of *marijuana*."
+19 9 20 15 0 0 "*I'm on the corner of 13th & Pearl."
+0 18 0 0 0 0 "octagonal hut. This is the City of Boulder's Information Center."
+0 10 0 18 0 0 "*I'm on the corner of 14th & Pearl."
 
 ""
 "If you need *help* just ask!"
@@ -122,15 +138,23 @@ I know a few two word commands that follow a *verb* *noun* or just *verb* format
 "Shasta looks at me curiously then taps her bowl again. It seems like she wants me to *fill* her *bowl*."
 "Shasta cocks her head to the site squeaks again and taps her bowl. It seems like she wants me to *fill* her *bowl*."
 "Shasta drinks the water greedily, then walks a few feet until she finds a spot to her liking. She flops over gracelessly with a contented sigh."
+"The *door*s to the Recurly offices are locked."
 "Lark opens the door and asks me if my key isn't working. I enter the office."
-"Lark looks over, recognizes me and then helpfully opens the door. "
+"Lark looks over, recognizes me and then helpfully opens the door."
 "I pull on the *door* but it's locked. Perhaps I should try *knock*ing?"
+"The building to the West has a Recurly logo on the door. The creek is to the South but crossing a busy street like Canyon seems like too much trouble."
+"The band shell in the park looks really cool. I would love to see a show there."
+"The *door*s to the Recurly offices are locked. Delivery trucks block the alley to the the East. Walnut Street is to the North."
 "I pull on the door but it's locked. At the sound of the door jiggling, everyone looks up at me. I point down at down at the lock. Eventually Rafi walks over and opens the door.
 
 `You should *get* your *key*,` he tells me."
+"The rooftop deck at the Rio sure looks enticing. We should head up there and have a drink for happy hour."
+"I smell an amazing combination of spices. I should remember to come back over here and have Indian buffet for lunch."
+"The new Twitter offices look pretty cool."
+"I can see the bus station is to the South."
 "I wave through the thick glass to get the attention of the woman working at the sales window. She looks up from her computer, `You here for an EcoPass? *Give* me your *form*.`"
 "The woman working in the RTD sales window asks me, `What can I do for you?`
-`I want to get my Ecopass.`
+`I want to get my EcoPass.`
 `Not a problem, all I'll need is your signed authorization form,` she says.`
 `Oh... I don't have one,` I say.
 `Then you'll need head over to the city's Information Center on 13th & Pearl. They can help you there.`"
@@ -139,6 +163,11 @@ A minute later she motions that she's finished and for me to move backwards a bi
 `Have a seat for a minute and I'll call you up when your pass is finished printing.`
 I sit and wait for a few minutes and the moment finally arrives, I'm now an EcoPass holder!
 Now I can ride anywhere in the entire RTD system for free. Now I could take the FF2 down to Union Station, hop the A train out to DIA, and ride the AB1 right back here!"
+"I could really do for latte. Maybe I should *go* *North* to Ozo."
+"There's some restaurants here."
+"A curious staircase leads down from the street."
+"A sign informs me that they'll need to an ID before I can go into the next room."
+"`Are you serious?! Get out of here!` the employee yells as she pushes me toward the stairs."
 "All the marijuana is behind glass. I'll have to *buy* it first."
 "I just remembered this passage from the Employee Handbook:
 
@@ -154,8 +183,8 @@ Now I can ride anywhere in the entire RTD system for free. Now I could take the 
 
 So I might want to think twice before I *smoke* any of it."
 "`No way bud! You're out of here!` the employee yells as he grabs my arm and drags me out the door and up the stairs."
-"`Are you serious?! Get out of here!` the employee yells as she pushes me toward the stairs."
 "Uh oh! Why didn't you tell me that HR was visiting the Boulder office today? And here they are standing in front of me. Looks like I'm about to get fired!"
+"There's a small octagonal building to the North."
 "The employee looks up at me and says, `What can I do for you? Do you need me to *get* my *signature* on your EcoPass form?`"
 "I can't sign it myself. I'll need to *get* the city employee's *signature*."
 "The city employee tilts his head empathetically and says, `Sorry, but you'll have to get the form signed by your office's EcoPass contact. It's often the office manager, human resource manager or owner. Come back when you've got the paperwork.`"
@@ -164,6 +193,7 @@ So I might want to think twice before I *smoke* any of it."
 I show him my ID and he signs my form.
 
 `Take this over to the RTD Downtown Boulder Station on 14th & Walnut,` he says as he hands the form back to me."
+"This corner has it all. Good Italian sandwiches at Salvaggio's Deli, a great dinner date at Oak, or self loathing after eating the entire serving at Cheesecake Factory."
 
 "the office manager *Jayda*" 1
 "a blank EcoPass authorization *form*/FORM/" 1
@@ -174,8 +204,22 @@ I show him my ID and he signs my form.
 "a door *key*/KEY/" 1
 "an RTD *employee*" 11
 "some stinky *marijuana*/MARIJU/" 0
-"a city *employee*" 17
+"a city *employee*" 19
 
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
 ""
 ""
 ""
