@@ -1,6 +1,6 @@
 0
 9
-55
+58
 27
 20
 -1
@@ -8,61 +8,64 @@
 1
 6
 -1
-50
+53
 1
 
 450 0 0 0 0 0 150 0
 600 0 0 0 0 0 300 0
-1507 24 20 0 0 0 11103 0
-758 24 0 0 0 0 600 0
-1357 24 21 20 40 0 822 0
-1357 24 33 0 0 0 900 0
-2107 24 33 0 0 0 1050 0
-2107 24 41 0 0 0 1200 0
-1509 24 21 0 0 0 1350 0
-1509 24 33 0 0 0 1500 0
-1509 24 41 40 60 0 1722 0
-5 24 0 0 0 0 1800 0
-2260 24 0 0 0 0 1950 0
-2410 24 0 0 0 0 2100 0
-2562 24 0 0 0 0 2250 0
-2862 24 0 0 0 0 2400 0
-100 44 0 0 0 0 2550 0
-3014 44 121 20 0 0 2754 9600
-3014 44 126 20 0 0 2904 9600
+100 9 0 0 0 0 508 0
+100 24 0 0 0 0 600 0
+1507 24 20 0 0 0 11105 0
+758 24 0 0 0 0 900 0
+1357 24 21 20 40 0 1122 0
+1357 24 33 0 0 0 1200 0
+2107 24 33 0 0 0 1350 0
+2107 24 41 0 0 0 1500 0
+1509 24 21 0 0 0 1650 0
+1509 24 33 0 0 0 1800 0
+1509 24 41 40 60 0 2022 0
+5 24 0 0 0 0 2100 0
+2260 24 0 0 0 0 2250 0
+760 24 0 0 0 0 2400 0
+2410 24 0 0 0 0 2550 0
+2562 24 0 0 0 0 2700 0
+2862 24 0 0 0 0 2850 0
+100 44 0 0 0 0 3000 0
+3014 44 121 20 0 0 3204 9600
+3014 44 126 20 0 0 3354 9600
 3164 44 121 20 0 0 8164 0
-3164 44 126 0 0 0 3000 0
-100 84 0 0 0 0 3150 0
-100 104 0 0 0 0 3300 0
-100 124 0 0 0 0 3450 0
+3164 44 126 0 0 0 3450 0
+100 84 0 0 0 0 3600 0
+100 104 0 0 0 0 3750 0
+100 124 0 0 0 0 3900 0
 3164 124 121 20 0 0 8164 0
-3164 124 126 20 0 0 3654 9600
-100 144 0 0 0 0 3750 0
-100 164 0 0 0 0 3900 0
-100 184 0 0 0 0 4050 0
-100 204 0 0 0 0 4200 0
-765 224 0 0 0 0 4350 0
-2557 224 86 0 0 0 4500 0
-2557 224 81 80 100 0 4722 0
-100 244 0 0 0 0 4800 0
-1516 264 0 0 0 0 4950 0
-3316 264 0 0 0 0 5100 0
-765 264 0 0 0 0 5250 0
-100 284 0 0 0 0 5400 0
-100 304 0 0 0 0 5550 0
-100 324 166 0 0 0 5700 0
-3467 324 161 360 0 0 5904 9600
-1517 344 0 0 0 0 6000 0
-3317 344 160 0 0 0 6192 7800
-3467 161 344 360 0 0 6504 9600
-3467 161 0 0 0 0 6663 0
-100 364 0 0 0 0 6750 0
-765 384 0 0 0 0 6900 0
-2107 384 0 0 0 0 7050 0
-1509 384 33 0 0 0 7200 0
-1509 384 53 0 0 0 7200 0
-1509 384 61 60 80 0 7422 0
-100 404 0 0 0 0 7500 0
+3164 124 126 20 0 0 4104 9600
+100 144 0 0 0 0 4200 0
+100 164 0 0 0 0 4350 0
+100 184 0 0 0 0 4500 0
+100 204 0 0 0 0 4650 0
+765 224 0 0 0 0 4800 0
+2557 224 86 0 0 0 4950 0
+2557 224 81 80 100 0 5172 0
+100 244 0 0 0 0 5250 0
+1516 264 0 0 0 0 5400 0
+3316 264 0 0 0 0 5550 0
+765 264 0 0 0 0 5700 0
+100 284 0 0 0 0 5850 0
+100 304 0 0 0 0 6000 0
+100 324 166 0 0 0 6150 0
+3467 324 161 360 0 0 6354 9600
+1517 344 0 0 0 0 6450 0
+3317 344 160 0 0 0 6645 7800
+3467 161 344 360 0 0 6954 9600
+3467 161 0 0 0 0 7113 0
+100 364 0 0 0 0 7200 0
+765 384 0 0 0 0 7350 0
+2107 384 0 0 0 0 7500 0
+1509 384 33 0 0 0 7650 0
+1509 384 53 0 0 0 7650 0
+1509 384 61 60 80 0 15372 0
+100 404 0 0 0 0 15450 0
 3600 0 0 0 0 0 9750 0
 3750 0 0 0 0 0 9900 0
 3900 0 0 0 0 0 9600 0
@@ -98,7 +101,7 @@
 "QUIT" ""
 
 0 0 0 0 0 0 ""
-6 2 0 0 0 0 "*I'm in the Recurly Boulder office. The smell of free breakfast fills the office."
+6 2 0 0 0 0 "*I'm in the Recurly Boulder office."
 0 4 0 3 0 0 "vestibule between the Recurly office and a bank. "
 0 0 2 0 0 0 "*I'm in Flatirons Bank. The employees look up expectantly."
 6 0 5 2 0 0 "*I'm on the corner of 11th & Canyon."
@@ -121,10 +124,18 @@
 
 ""
 "If you need *help* just ask!"
-"This is a text adventure where you help me, a new Recurly employee, on my first day of work. I need your help to get an EcoPass so I can take the bus for free!
+"
 
 I know a few two word commands that follow a *verb* *noun* or just *verb* format. So you can type something like like *get form* or *look*. I'll accept some short cuts so instead of saying *go north* can shorten it to *north* or even *n*.
 "
+"This is a text adventure where you help me, a new Recurly employee, on my first day of work. I need your help to get an EcoPass so I can take the bus for free!
+
+You can type *help* to find out more about the commands I understand.
+
+* * *
+
+"
+"The smell of free breakfast fills the office."
 "I pick up the blank form. Looks like I'll need to *complete* it before I can get it signed."
 "`Welcome! I hope you're having a good first day,` she tells me.
 `Yeah, everyone's been really helpful. It's great to have a buddy to show me around,` I say motioning to you. `Can you help me get my EcoPass?`
@@ -136,8 +147,9 @@ I know a few two word commands that follow a *verb* *noun* or just *verb* format
 "Jayda looks at my blank EcoPass authorization form and says, `you'll need to *complete* that *form* before I can sign it.`"
 "I need to *get* the *form* before I can get a signature."
 "Jayda signs my EcoPass authorization form and says, `Alright, now you need to take this over to the Information Center on the corner of 13th & Pearl.`"
-"A friendly tan and white dog approaches and sniffs me. Her faded tag reads Shasta. She walks to an empty water *bowl* on the floor under a desk and looks back at me. She makes a sad squeaking sound and begins tapping the bowl with her paw."
+"A friendly tan and white dog approaches and sniffs me. Her faded tag reads *Shasta*. She walks to an empty water bowl on the floor under a desk and looks back at me. She makes a sad squeaking sound and begins tapping the bowl with her paw."
 "Shasta is excited when she sees my hand coming down to her. When she realizes it contains no food she looses interest and slowly waddles off."
+"I ask Shasta to say hello and she barks obediently. Then taps her empty *water* *bowl* with her paw."
 "Shasta looks at me curiously then taps her bowl again. It seems like she wants me to *fill* her *bowl*."
 "Shasta cocks her head to the site squeaks again and taps her bowl. It seems like she wants me to *fill* her *bowl*."
 "Shasta drinks the water greedily, then walks a few feet until she finds a spot to her liking. She flops over gracelessly with a contented sigh."
@@ -148,9 +160,9 @@ I know a few two word commands that follow a *verb* *noun* or just *verb* format
 "The building to the West has a Recurly logo on the door. The creek is to the South but crossing a busy street like Canyon seems like too much trouble."
 "The band shell in the park looks really cool. I would love to see a show there."
 "The *door* to the Recurly offices is locked. Delivery trucks block the alley to the the East. Walnut Street is to the North."
-"I pull on the door but it's locked. At the sound of the door jiggling, everyone looks up at me. I point down at down at the lock. Eventually Rafi walks over and opens the door.
-
-`You should *get* your *key*,` he tells me."
+"I pull on the door but it's locked. Everyone looks up at the sound of the jiggling door. I point down at down at the lock. Eventually Rafi walks over and opens the door.
+`You should *get* your *key*,` he tells me.
+"
 "The rooftop deck at the Rio sure looks enticing. We should head up there and have a drink for happy hour."
 "I smell an amazing combination of spices. I should remember to come back over here and have Indian buffet for lunch."
 "The new Twitter offices look pretty cool."
@@ -212,6 +224,9 @@ I show him my ID and he signs my form.
 "some stinky *marijuana*/MARIJU/" 0
 "a city *employee*" 19
 
+""
+""
+""
 ""
 ""
 ""

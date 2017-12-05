@@ -48,7 +48,7 @@ end
 
 def adjust_output output
   # strip off the startup license message
-  output = output.sub(/ScottKit,.*2 license\.\n\n/m, '')
+  output = output.sub(/ScottKit,.*GPL version 2 license\.\n/m, '')
   # fix the prompt
   output = output.sub('Tell me what to do ?', 'Tell me what to do?')
   # avoid having double returns part of the time
